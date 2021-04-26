@@ -1,2 +1,26 @@
+Multiset:
+    An unordered collection of elements, in which the number of occurences of an element may be one or more than one or zero.
+
+
 We need to create the following methods of the class:
-\begin{itemize}
+RandomizedCollection()
+bool insert(int val)
+bool remove(int val)
+int getRandom()
+
+RandomizedCollection():
+        Creates an instance of a data structure, which stores the values of our multiset.
+        
+bool insert(int val):
+        inserts the value 'val' to our multiset
+        returns True if its multiplicity is 1
+        returns False if its multiplicity is greater than 1, i.e. it already exists
+
+bool remove(int val):
+        removes the value 'val' from our multiset if present and returns True
+        else returns False
+        
+int getRandom():
+        the proabaility of an element being returned depends on its multiplicity
+        therefore let us put the index as the variable instead of the value, and uniformly select one random number in range(0,len(data_structure) as index
+        for elements with multiplicity greater than 1, the number of indices are also greater than 1, and hence will increase the chance of that element being returned

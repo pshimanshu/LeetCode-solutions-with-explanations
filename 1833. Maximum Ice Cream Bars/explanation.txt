@@ -1,0 +1,11 @@
+We need to find the maximum number of ice creams for the given total cost.
+If we follow the greedy approach and select the least costly ice-cream at each step, we can maximize the total number of ice-creams.
+
+We are given an unsorted list of costs of different ice-creams available.
+
+First we sort the list in ascending order.
+And then we run a while loop, with the condition being the number of coins we have left should be positive and the lsit should be non-empty.
+Within the while loop:
+	pop the first element and check with available number of coins.
+	if greater, then we can take that ice cream and increase num_ice_creams and decrease available_coins
+	else, break from loop

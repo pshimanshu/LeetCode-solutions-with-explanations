@@ -1,0 +1,4 @@
+Runtime:
+               468 ms, faster than 6.64% of Python3 online submissions for Insert Delete GetRandom O(1) - Duplicates allowed.
+Memory Usage:
+              18.4 MB, less than 93.00% of Python3 online submissions for Insert Delete GetRandom O(1) - Duplicates allowed.

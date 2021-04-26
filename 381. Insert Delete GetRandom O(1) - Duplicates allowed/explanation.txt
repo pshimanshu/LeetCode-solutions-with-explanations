@@ -1,0 +1,2 @@
+We need to create the following methods of the class:
+\begin{itemize}

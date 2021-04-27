@@ -1,0 +1,4 @@
+Runtime: 
+        900 ms, faster than 5.22% of Python3 online submissions for Reducing Dishes.
+Memory Usage: 
+        48.7 MB, less than 5.42% of Python3 online submissions for Reducing Dishes.

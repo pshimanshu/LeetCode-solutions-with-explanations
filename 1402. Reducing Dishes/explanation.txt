@@ -1,0 +1,8 @@
+We are given a list of satisfactions of each dish and the time taken to prepare them.
+For every item, we have the choice of either choosing or not choosing.
+    if we choose the item then the value will be (satisfaction[i]* t + {remaining part of problem with index incremented by 1 and time incremented by 1} (t+1))
+    if we dont choose the item then the item is skipped, but the time will not be spent on this, so time will be same. (t)
+
+so recursion comes out to be:
+        max(satisfaction[i]* t + recur(i+1,t+1), recur(i+1,t))
+        
